@@ -23,6 +23,7 @@ op_types = {
 	'shortcut' : shortcut,
 	'yolo' : yolo,
 	'upsample' : upsample,
+	'mish': mish,
 }
 
 def op_create(*args):
