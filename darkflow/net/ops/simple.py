@@ -161,3 +161,9 @@ class upsample(BaseOp):
 		self.out = inp
 
 	def speak(self): return 'upsample'
+
+class mish(BaseOp):
+	def forward(self):
+		self.out = self.inp.out*(tf.math.tanh(tf.math.softplus(self.inp.out)))
+
+	def speak(self): return 'mish'
