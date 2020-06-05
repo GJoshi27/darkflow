@@ -4,7 +4,7 @@ to support yolov4 pb and onnx file generation from weights.
 
 ## Dependencies
 
-Python3.6.1, tensorflow 1.14, numpy, opencv 3, tf2onnx (1.6 version from [commit branch 1000b66])(https://github.com/onnx/tensorflow-onnx/tree/1000b66d66e6332ceaaedde5664de2863a6e30ad)
+Python3.6.1, tensorflow 1.14, numpy, opencv 3, tf2onnx 1.6 version [branch 1000b66](https://github.com/onnx/tensorflow-onnx/tree/1000b66d66e6332ceaaedde5664de2863a6e30ad)
 
 ### Getting started
 
