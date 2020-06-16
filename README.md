@@ -21,7 +21,8 @@ Python3.6.1, tensorflow 1.14, numpy, opencv 3, tf2onnx 1.6 version [branch 1000b
 * Run python -m tf2onnx.convert --input `Frozen pb file` --output `Onnx file name` --inputs `Input node` --outputs `Output nodes` --verbose --opset `Opset number`
     * python36 -m tf2onnx.convert --input `yolov4.pb` --output `yolo_v4.onnx` --inputs `input:0` --outputs `BiasAdd_93:0,BiasAdd_101:0,BiasAdd_109:0` --verbose --opset `10`
     
-* Updated ONNX file to have a custom Op as last node for YoloV4 post processing.
+* Updated ONNX file to have a custom Op as last node for YoloV4 post processing. For Reference see update_onnx_model.py.
+For more details on Operations used, check https://github.com/onnx/onnx/blob/master/docs/PythonAPIOverview.md
 <p align="center"> <img src="lastNodeYolov4.JPG"/> </p>
 
     
