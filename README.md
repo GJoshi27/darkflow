@@ -15,7 +15,7 @@ Python3.6.1, tensorflow 1.14, numpy, opencv 3, tf2onnx 1.6 version [branch 1000b
 * Modify darkflow\darkflow\utils\loader.py
     * Change line 121 self.offset = 16 to self.offset = 20    
 * Run python flow --model `path of yolov4.cfg file` --load `path of yolov4 weights` --savepb
-    * python36 flow --model `../darknet/cfg/yolov4.cfg` --load `..\weights\yolov4.weights` --savepb
+    * python36 flow --model `cfg/yolov4.cfg` --load `..\weights\yolov4.weights` --savepb
 
 * Run python -m tf2onnx.convert --input `Frozen pb file` --output `Onnx file name` --inputs `Input node` --outputs `Output nodes` --verbose --opset `Opset number`
     * python36 -m tf2onnx.convert --input `yolov4.pb` --output `yolo_v4.onnx` --inputs `input:0` --outputs `BiasAdd_93:0,BiasAdd_101:0,BiasAdd_109:0` --verbose --opset `10`
