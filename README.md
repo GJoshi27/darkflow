@@ -2,6 +2,7 @@
 Forked from branch https://github.com/ayermolo/darkflow.git
 to support YoloV4 pb and onnx file generation from weights.
 Take a look of this master branch of [darknet](https://github.com/AlexeyAB/darknet) for YoloV4 Updates. 
+More variants of  [YoloV4 weights](https://github.com/AlexeyAB/darknet/wiki/YOLOv4-model-zoo)
 
 ## Dependencies
 
